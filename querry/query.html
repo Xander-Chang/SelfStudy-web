@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <style type="text/css">
+            input{
+                background-color:#cde
+            }
+            textarea{
+                background-color:#ccf
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- 1. 建立問卷-->
+        <center>
+        <h3>請填入以下資料</h3>
+        <fieldset>
+        <legend align="center">基本資訊</legend>
+        <br/>
+        <!-- 2. 姓名 -->
+        <label style >name:</label>
+        <input type="text" name="username" sixe  placeholder="請輸入姓名"><p></p>
+        <br/>
+        <br/>
+        <!-- 性別 -->
+        <label style >sex:</label>
+        <input type="checkbox" name="usersex" size  checked  > male
+        <input type="checkbox" name="usersex" size   > female
+        <input type="checkbox" name="usersex" size   > bisexual
+        <input type="checkbox" name="usersex" size   > transgender
+        <input type="checkbox" name="usersex" size   > agender
+        <p></p>
+        <br/>
+        <br/>
+        <!-- 年齡 -->
+        <label style >age: </label><input type="text" name="userage" sixe  placeholder="請輸入年紀">
+        <p></p>
+        <br/>
+        <br/>
+        <!-- 婚姻狀態 -->
+        <label style >婚姻: </label>
+        <input type="radio" name="state" size  checked > single
+        <input type="radio" name="state" size   > married
+        <input type="radio" name="state" size   > divorced
+        <input type="radio" name="state" size   > preferably not to say 
+        <p></p>
+        <br/>
+        <br/>
+        <!-- 球類興趣 -->
+		<label style >球類興趣 : </label>
+        <input type="checkbox" name="userball" size  checked  > baseball
+        <input type="checkbox" name="userball" size   > basketball
+        <input type="checkbox" name="userball" size   checked  > bowling
+        <input type="checkbox" name="userball" size   > tennis
+        <input type="checkbox" name="userball" size   > golf 
+        <p></p>
+        <br/>
+        <br/>
+        <!-- 帳密 -->
+        <label>account:</label>
+        <input type="text" name="useraccount" size  placeholder="請輸入帳號" > 
+        password:
+        <input type="password" name="userpassword" size   placeholder="請輸入密碼"> 
+        <p></p>
+        <br/>
+        <br/>
+        <!-- 3. 文字區塊 -->
+        <textarea rows cols name="comment" >留言板</textarea>
+        <textarea rows cols name="bulletinboard " readonly > billboard </textarea>
+        </fieldset>
+        <br/>
+        <br/>
+        
+        
+        <!-- 4. 清單方塊 -->
+        <fieldset>
+        <legend style="text-align:center;">點餐選擇</legend>
+        <h5 style="font-size:0.3cm ;">選擇訂餐</h5>
+        <select size="1" name="maincourse"  >
+            <option value="maincourse1" selected>美式漢堡</option>
+            <option value="maincourse2" selected>日式米漢堡</option>
+            <option value="maincourse3" selected>台式米漢堡</option>
+            <option value="maincourse4" selected>德式潛艇堡</option>
+            <option value="maincourse5" selected>英式漢堡</option>
+        </select>
+        <br/>
+        <br/>
+        <h5 style="font-size:0.3cm ;">選擇配餐</h5>
+        <select size="3" name="sidedish"  multiple>
+            <option value="sidedish1" selected>薯條</option>
+            <option value="sidedish2" selected>雞米花</option>
+            <option value="sidedish3" selected>雞塊</option>
+            <option value="sidedish4" selected>德香腸</option>
+            <option value="sidedish5" selected>爆米花</option>
+        </select>
+        <br/>
+        <br/>
+        <!-- 5. 裝飾框 -->
+        </fieldset>
+        <br/>
+        <br/>
+        <input type="submit" value="確認送出">
+        <input type="reset" value="重新開始">
+        </center>
+    </body>
+</html>
