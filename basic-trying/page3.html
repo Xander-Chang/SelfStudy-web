@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>xander的測試三頁</title>
+        <style>
+        p{
+            color:blue;
+            background-color:aquamarine;
+        }
+        h3{
+            color:red;
+        }</style>
+
+        <link rel="stylesheet" href="mycss/mystyle.css"/>
+        <link rel="stylesheet" href="page3-flex2.css"
+
+    </head>
+    <body>
+        <a href="../class_01_html.html">回主頁</a>
+        <hr/>
+        <a href="https://www.google.com.tw/imgres?imgurl=https%3A%2F%2Fim2.book.com.tw%2Fimage%2FgetImage%3Fi%3Dhttps%3A%2F%2Fwww.books.com.tw
+        %2Fimg%2FF01%2F053%2F30%2FF010533001.jpg%26v%3D5dc3481b%26w%3D280%26h%3D280&imgrefurl=https%3A%2F%2Fwww.books.com.tw
+        %2Fproducts%2FF010533001&tbnid=4tGLyQxDJWFBOM&vet=12ahUKEwj7k6a2h_T3AhURBaYKHcs2DC8QMygOegUIARDeAQ..
+        i&docid=ok_xHvfyu3Ye1M&w=280&h=280&q=order%20of%20the%20phenix&ved=2ahUKEwj7k6a2h_T3AhURBaYKHcs2DC8QMygOegUIARDeAQ" target="new">trying hard to studying...</a>
+        <p></p>
+        <hr/>
+
+        <h3>css 的另一種寫法</h3>
+        <h3>p、h3</h3>
+        <p>從上面 head </p>
+        <P>建立 style</P>
+        <P>控制全部</P>
+        <p></p>
+        <hr/>
+
+        <h1>使用外部 css</h1>
+        <h2>用link 標籤</h2>
+        <h2>控制h1、h2</h2>
+        <h2>檔案在另一個資料夾</h2>
+
+        <div class="container">
+            <div class="box-1 font">區塊1</div>
+            <div class="box-2 font">區塊2</div>
+            <div class="box-3 font">區塊3</div>
+            <div class="box-1 font">區塊4</div>
+            <div class="box-2 font">區塊5</div>
+            <div class="box-3 font">區塊6</div>
+            <div class="box-1 font">區塊7</div>
+            <div class="box-2 font">區塊8</div>
+            <div class="box-3 font">區塊9</div>
+        </div>
+        <p></p>
+        <hr/>
+        <!--聯成 html-->
+        <per>hr 顏色水平寬度線寬</per>
+        <hr color="#50f" align="center" width="60%"/>
+        <hr color="red" align="left" width="500" style="border-width:5px; color:red;"/>
+        
+        <per>p / per 不同</per>
+        <p>pre 標籤 可以根據網頁大小,照比例改變樣式。
+            该元素中的文本通常按照原文件中的编排，以等宽字体的形式展现出来，文本中的空白符（比如空格和换行符）都会显示出来。
+        </p>
+        <pre style="font-size:1cm"><strong><em><del>pre 標籤 可以根據網頁大小,照比例改變樣式。
+            该元素中的文本通常按照原文件中的编排，以等宽字体的形式展现出来，文本中的空白符（比如空格和换行符）都会显示出来。
+        </del></em></strong></pre>
+        <h6><strong><em><s>粗體、斜線文字 另一種表示方式</s></em></strong></h6>
+        <hr color="#306" align="center" width="60%" style="border-width:3px">
+            <img src="Line_gif/bar02.gif"/>
+        </hr>
+
+        <per>清單列表的分類符號， 用css 變換</per>
+        <dir style=list-style:url(part5/dot/arrow.gif);>
+            <li>google</li>
+            <li>facebook</li>
+            <li>ig</li>
+            <li>ptt</li>
+        </dir>
+        <br/>
+        <menu style=list-style:url(part5/dot/dot3.gif);>
+            <li>google</li>
+            <li>facebook</li>
+            <li>ig</li>
+            <li>ptt</li>
+        </menu>
+        <hr color="#A06" width="75%" align="center" style="border-width:3px"/>
+
+
+
+        <!-- 表格介紹      <th 粗體置中 - 欄未標頭>     <colspan>     <rowspan>-->
+ 
+        <table   width="1000px" border="10px" bordercolor="#000" background  bgcolor="#fff">
+            
+            <caption style="color:black; font-weight: bolder; font-size:0.5cm; text-align:center; "><h3 style="color:black";>這是一個 5*3 的表格</h3></caption>
+            <center>
+            <!-- 標頭 -->
+            <thead align  bgcolor  > 
+                <tr>
+                    <th>標頭A</th>
+                    <th>標頭B</th>
+                    <th>標頭C</th>
+                </tr>
+            </thead>
+
+            <!--第一列-->
+            <tr>
+                <th>第一列第1欄</th>
+                <th>第一列第2欄</th>
+                <th>第一列第3欄</th>
+            </tr>
+           
+            <!--第二列-->
+            <tr>
+                <td  width="800"    height="50"   align="right"   bgcolor="#456"   background    >第二列第1欄</td>   
+                <td  width="200"          height         align="right"   bgcolor="#456"   background    >第二列第2欄</td> 
+                <td>第二列第3欄</td>
+            </tr>
+            <!--第三列-->
+            <tr  align="center"   bgcolor="#822"  height="30">
+                <td bgcolor="#d55">第三列第1欄</td>
+                <td>第三列第2欄</td>
+                <td>第三列第3欄</td>
+            </tr>
+            <!--第四列-->
+            <tr>
+                <td  width="20%" rowspan="2">第四列第1欄</td>
+                <td  width="60%">第四列第2欄</td>
+                <td>第四列第3欄</td>
+                
+            </tr>
+            <!--第五列-->
+            <tr>
+                <td colspan="2">第五列第2欄</td>
+            </tr>
+            <!--第六列-->
+            <tr>
+                <td colspan="3" align="center" bgcolor="#9ff">第五列第1欄</td>
+            </tr>
+
+            <!-- tbody -->
+            <tbody style="background-color:#568">
+                <tr>
+                    <td>tbody</td>
+                    <td>tbody</td>
+                    <td>tbody</td>
+                </tr>
+            </tbody>
+
+            <!-- tfoot -->
+            <tfoot>
+                <tr>
+                    <td colspan="3" align="right" style="font-weight:bold;"> 製表人 : tfoot </td>
+                    
+                </tr>
+            </tfoot>
+        </table>
+        <hr color="aquamarine" align="center" width="75%" style="border-width:3px;"/>
+
+        <!-- 表格 -->
+        <form method="post" action="">
+            <label>姓名:</label><input type="text" name="username" size="20" placeholder="請輸入姓名">
+            <label class="label">年齡:</label><input type="text" name="userage" placeholder="請輸入年齡" size="20">
+            
+            <input type="submit" value="傳送">
+            <input type="reset" value="重填">
+        </form>
+
+
+    </body>

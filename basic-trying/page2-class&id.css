@@ -1,0 +1,46 @@
+<!--class 使用-->
+.food{
+    color:red
+}
+
+
+.beverages{
+    color:blue
+}
+
+
+.background-grey{
+    background-color:grey
+}
+
+<!--id 使用-->
+#class8{
+    color:blueviolet
+}
+
+
+#id, class{
+    color:brown
+}
+
+<!--整頁 使用-->
+*{
+    color:grey
+}
+
+<!--不同標籤 使用-->
+ul li{
+    background:grey
+}
+
+
+<!--屬性 使用-->
+[type]{
+    color:yellowgreen
+}
+
+<!--滑過顯示 使用-->
+p:hover{
+    background-color:blueviolet
+}
+
