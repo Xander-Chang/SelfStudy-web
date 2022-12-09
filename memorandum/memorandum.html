@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>備忘錄</title>
+        <style type="text/css">
+            .add{
+                background-color: #cdc;
+            }
+
+            .remove{
+                background-color:aliceblue;
+            }
+        </style>
+
+    </head>
+    <body>
+        <center>
+            <fieldset style="background-color: antiquewhite;">
+                    <div>
+                        <h1>備忘錄</h1>
+                        <p>標題</p>
+                        <input type="text" id="title"/>
+                        
+                        <p>日期</p>    
+                        <input type="date" id="date"/>
+                        
+                        <p>內容</p>
+                        <textarea id="content" rows="8"></textarea>
+                        <br/>
+                        
+                        <button class="add" id="addBtn">新增</button>
+                        <button class="remove" id="removeBtn">刪除</button>
+                        
+
+                        <div class="article">
+                            <div id="list">
+                                <hr/>
+                                    <h2>標題</h2>
+                                    <p>日期</p>
+                                    <p>內容</p>
+                            </div>
+                        </div>
+                    
+                    
+                    </div>
+            </fieldset>
+        </center>
+        <script src="memorandum.js"></script>
+    </body>
+</html>
