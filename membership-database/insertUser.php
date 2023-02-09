@@ -24,7 +24,7 @@ if (isset($_POST['username'])){
         echo '<script language="JavaScript">;alert("使用者建立完成");location.href="login.html";</script>;  ';
 
 	}else{
-        echo '<script language="JavaScript">;alert("使用者已存在，請換個帳號！");location.href="createUser.html";</script>;  ';
+        echo '<script language="JavaScript">;alert("使用者已存在，請換個帳號！");location.href="login.html";</script>;  ';
 
 	}
 
