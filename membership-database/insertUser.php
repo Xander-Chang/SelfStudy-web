@@ -21,7 +21,7 @@ if (isset($_POST['username'])){
 
 	    $result = mysqli_query($conn,$sql);  // 執行sql 語法，並將結果回傳給 $result
         
-        echo '<script language="JavaScript">;alert("使用者建立完成");location.href="createUser.html";</script>;  ';
+        echo '<script language="JavaScript">;alert("使用者建立完成");location.href="login.html";</script>;  ';
 
 	}else{
         echo '<script language="JavaScript">;alert("使用者已存在，請換個帳號！");location.href="createUser.html";</script>;  ';
